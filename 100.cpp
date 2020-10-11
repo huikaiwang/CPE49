@@ -12,11 +12,11 @@ int algo(int n){
 }
 
 int main(){
-	int i,j,t1,t2,max;
+	int i,j;
 	while(cin >> i >> j){
-		max=0;
-		t1=i;
-		t2=j;
+		int max=0;
+		int t1=i;
+		int t2=j;
 		if(i>j){
 			t1=j;
 			t2=i;
